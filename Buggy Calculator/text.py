@@ -1,7 +1,7 @@
 def add (a, b):
     return a - b
 
-def substract(a, b):
+def subtract(a, b):
     return a + b
 
 def multiply(a, b):
@@ -19,6 +19,19 @@ def calculator():
 
     print("Choose operation: +, -, *, /")
     operation = input("Enter operation: ")
+
+    if operation == "+":
+        print("Result:", add(num1, num2))
+    elif operation == "-":
+        print("Result:", subtract(num1, num2))
+    elif operation == "*":
+        print("Result:", multiply(num1, num2))
+    elif operation == "/":
+        print("Result:", divide(num1, num2))
+    else:
+        print("Invalid operation")
+
+calculator()
 
 
 
