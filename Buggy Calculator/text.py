@@ -14,8 +14,12 @@ def divide(a, b):
 
 def calculator():
     print("Simple Calculator")
-    num1 = input("Enter first number: ")  # Bug: Should convert input to int or float
+    num1 = input("Enter first number: ")
     num2 = input("Enter second number: ")
+
+    print("Choose operation: +, -, *, /")
+    operation = input("Enter operation: ")
+
 
 
 
