@@ -1,7 +1,8 @@
 import pdb
 
 def add (a, b):
-    return a - b
+
+    return a + b
 
 def subtract(a, b):
     return a + b
@@ -16,8 +17,14 @@ def divide(a, b):
 
 def calculator():
     print("Simple Calculator")
-    num1 = input("Enter first number: ")
-    num2 = input("Enter second number: ")
+    try:
+
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+    except ValueError:
+        print("Error: Please enter valid numbers.")
+        return
+
 
     print("Choose operation: +, -, *, /")
     operation = input("Enter operation: ")
