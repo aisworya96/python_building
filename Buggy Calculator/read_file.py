@@ -6,4 +6,7 @@ name = "Panda"
 greeting = "Hello, {}"
 with_name = greeting.format(name)
 
+name = input("Enter a name:")
+
+
 
