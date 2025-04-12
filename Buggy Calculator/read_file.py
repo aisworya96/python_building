@@ -23,6 +23,9 @@ set = {"apple", "orange", "banana"}# curly braces, add and remove elements from 
 list.remove("apple")
 print(list)
 
+print(tuple)
+
+
 
 
 
