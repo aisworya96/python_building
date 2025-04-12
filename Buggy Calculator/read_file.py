@@ -20,6 +20,8 @@ list = ["apple", "orange", "banana"] #list has square brackates, can  modify a l
 tuple = ("apple", "orange", "banana") #you cannot modify a tuple, moon bracket, dont change the order
 set = {"apple", "orange", "banana"}# curly braces, add and remove elements from set, but cannot have duplicate element , order can chenge
 
+list.remove("apple")
+print(list)
 
 
 
