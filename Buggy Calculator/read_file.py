@@ -11,10 +11,13 @@
 
 # first python app
 
-user_age = input("Enter the age:")
-years = int(user_age)
-months = years * 12
-print(f"Yours age, {years}, is equal to {months}months.")
+user_age = int(input("Enter the age:"))
+
+months = user_age * 12
+print(f"Yours age, {user_age}, is equal to {months}months.")
+
+list = ["apple", "orange", "banana"]
+
 
 
 
